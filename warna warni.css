@@ -6,8 +6,8 @@
 
 .badan-index {    
 background-color: rgb(255, 170, 184);
-height: 80%;
-width: 80%;
+height: 30%;
+width: 90%;
 
 }
 
@@ -24,14 +24,19 @@ width: 80%;
   .container-sigma{
     background-color:pink  ;
      margin-left: 100px;
+     width: 170vh;
+     height: 70vh;
      border-radius: 40px;
+     box-shadow: 12px 9px 0px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 9px 0px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 9px 0px 1px rgba(0,0,0,0.75);
      
        
 }
 
   .img-umay{
 width: 30% ;
-height: 50% ;
+height: 70% ;
 border-radius: 40px;
  right : 50%;
  display: flex;
@@ -49,12 +54,12 @@ border-radius: 40px;
     font-style: italic;
     margin-top: 0;
     position: relative;
-    top: -230px;
+    top: -310px;
     width: 500px;
     overflow-wrap: break-word;
     margin-left: 45%;
     text-align: justify;
-    right: 20px;
+    right: 15px;
     font-size: 18px;
   
 }
@@ -63,21 +68,11 @@ border-radius: 40px;
     align-items: center;
     margin-left: 100px;
     position:relative;
-    top:60px;
+    top:5px;
     
     
 }
- .penutup{
-    background-color: pink;
-     margin-left: 100px;
-     height: 140px;
-     width: 40% ;
-     border-radius: 40px;
-     margin-top:-270px;
-     width: 90%;
-     
-
-}
+ 
 
 .link-foto{
 text-decoration: none;
@@ -85,42 +80,51 @@ color :crimson;
 
 }
 
+.hiasan-hiasan1{
+font-size: 70px;
+position: relative;
+right: -95%;
+top: -286px;
+}
+
 .hiasan-hiasan2 {
 font-size: 60px;
 position: relative;
-top: -400px;
-left: 23%;
-}
-
-.hiasan-hiasan4{
-   font-size: 60px;
-position: relative;
-top: -53px;
-left: -6%;
+top: -650px;
+left: 24%;
 }
 
 .hiasan-hiasan3{
  font-size: 60px;
  position: relative;
-top: -420px;
+top: -290px;
 left: -1%;
 }
 
-.hiasan-hiasan1{
-font-size: 60px;
+.hiasan-hiasan4{
+   font-size: 60px;
 position: relative;
-right: -96%;
-top: -58px;
+top: -660px;
+left: -6%;
 }
 
-.kado{
+
+
+.kado  {
    position: relative;
-   left: 850px ;
-   top: -150px;
+   left: 1000px ;
+   top: -400px;
    font-size: 40px;
    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
 }
-
+.kado:hover {
+    background-color: crimson;
+    transform: scale(1.2) rotate(8deg);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 /* kado.html */
 
 *,
@@ -130,7 +134,7 @@ top: -58px;
 }
 
 .badan-kado{
-   background-color:dimgrey;
+   background-color:;
    height: 80%;
    width: 80%;
 }
@@ -138,10 +142,162 @@ top: -58px;
 .container-judul{
    font-size: larger;
    font-style: italic;
-   margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .container-teta{
-   background-color: aliceblue;
+   background-color: white ;
+}
+
+.pilihan-1{
+   background-color: rgb(245, 245, 245) ;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content:center;
+    align-items: start;
+        width: 40%;
+        height: 40%;
+        position: relative;
+        left: 200px;
+        top: 60px;
+        font-size: 50px;
+
+
+}
+
+.pilihan-2 {
+
+   background-color: rgb(245, 245, 245) ;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   display: flex;
+    justify-content:center;
+    align-items:start;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left:700px;
+    top: -130px;
+    font-size: 50px;
+}
+
+.hadiah1{
+   position: relative;
+   top: -250px;
+   left: 400px;
+   border: 5px solid black;
+   padding: 20px;   
+   width: 5%;
+    max-width: 1180px;
+    margin: 0 auto;
+   font-size:x-large;
+   text-decoration: none;
+}
+
+.hadiah2{
+   position: relative;
+   top: -330px;
+     border: 5px solid black;
+   padding: 20px;   
+   width: 5%;
+    max-width: 1180px;
+    margin: 0 auto;
+   font-size:x-large;
+   right: 105px;
+   text-decoration: none;
+}
+
+.linkhadiah1{
+   text-decoration: none;
+   color: black;
+}
+
+.linkhadiah2{
+    text-decoration: none;
+   color: black;
+}
+
+/* RESPONSIVE HP */
+@media screen and (max-width: 700px) {
+
+    .badan-index {
+        padding: 12px 6px;
+    }
+
+    .container-sigma {
+        width: 100%;
+        padding: 15px 10px;
+        min-height: auto;
+        border-radius: 20px;
+    }
+
+    /* Judul tetap di atas */
+    .conitener-judul {
+        font-size: clamp(17px, 5vw, 30px);
+        margin-bottom: 18px;
+    }
+
+    /* Foto dan surat tetap berdampingan */
+    .isi-utama {
+        display: grid;
+        grid-template-columns: 38% minmax(0, 1fr);
+        gap: 12px;
+        align-items: center;
+    }
+
+    /* Foto */
+    .foto-area {
+        width: 100%;
+    }
+
+    .img-umay {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        border-radius: 15px;
+    }
+
+    /* Nama */
+    .kata-penutup {
+        font-size: clamp(9px, 2.5vw, 14px);
+    }
+
+    /* Surat */
+    .container-beta {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .ucapan {
+        width: 100%;
+        font-size: clamp(10px, 2.7vw, 16px);
+        line-height: 1.4;
+        text-align: justify;
+    }
+
+    /* Kado */
+    .wadah-kado {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .kado {
+        font-size: 28px;
+    }
+
+    /* Hiasan */
+    .hiasan-hiasan1,
+    .hiasan-hiasan2,
+    .hiasan-hiasan3,
+    .hiasan-hiasan4 {
+        font-size: 25px;
+    }
 }
